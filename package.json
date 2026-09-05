@@ -1,0 +1,28 @@
+{
+  "name": "@finwo/knex-dialect-tidb",
+  "version": "3.3.0",
+  "description": "TiDB dialect for Knex.js; extends MySQL2 with no behavioral changes",
+  "files": [
+    "README.md",
+    "index.js"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "keywords": [
+    "knex",
+    "knexjs",
+    "tidb",
+    "dialect",
+    "mysql"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "knex": "^3.3.0"
+  },
+  "peerDependencies": {
+    "knex": "^3.0.0"
+  }
+}
